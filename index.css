@@ -1,0 +1,89 @@
+
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  color: gray;
+  text-align: center;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: gray;
+  text-align: center;
+}
+
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-color: #f4c2c2; 
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: gray;
+  text-align: center;
+}
+
+.side-menu{
+  list-style: none;
+  border: 1px gray solid;
+  border-radius: 10px;
+  width: 300px;
+  padding: 40px;
+}
+
+.side-menu li {
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: dotted 1px gray;
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: gray;
+  display: inline-block;
+  text-align: left;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+  body{
+    background: #f4c2c2;
+  }
+  .side-menu {
+    width: 100px;
+  }
+  .message {
+   rows="10";
+  }
+  }
+
+/* Tablet */
+@media(max-width: 800px) {
+  body{
+    background: #f4c2c2;
+  }
+}
+
+/* Desktop */
+@media(max-width: 1200px) {
+  body{
+    background: #f4c2c2;
+  }

@@ -1,0 +1,126 @@
+Last login: Tue Jan 19 21:52:07 on ttys000
+ylldesmustafa@Ylldess-MacBook-Pro ~ % ls
+Applications
+Creative Cloud Files
+Creative Cloud Files (unknown)
+Demo Reel.txt
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+TEKsystems Questions.txt
+iCloud Drive (Archive)
+iCloud Drive (Archive) - 1
+ylldesmustafa@gmail.com Creative Cloud Files
+ylldesmustafa@Ylldess-MacBook-Pro ~ % cd documents
+ylldesmustafa@Ylldess-MacBook-Pro documents % ls
+2203226.pdf			Lola's Documents
+Adobe				My Sucka.docx
+CSS				Pics
+CapitalOne-Disclosure.pdf	Relocated Items
+DePaul 2014-2019		RemotePilotCertApp.tif
+Degree Pics			Resume + Cover Letters
+DinnerPlanner.pdf		School Screenshots
+Engagement Pictures		TEKSystemsDocuments
+Fitness				WTW {JAYME MIX 1}.mp3
+HTML Practice			WebEx
+Letter To My Love.pages
+ylldesmustafa@Ylldess-MacBook-Pro documents % cd TEKsystemsDocuments
+ylldesmustafa@Ylldess-MacBook-Pro TEKsystemsDocuments % ls
+EFT EnrollmentforUSA_FilledOut.pages	git
+SignedW9-1.pdf				tgs-webdevelopmentbootcamp-guide.pdf
+Stipend Docs
+ylldesmustafa@Ylldess-MacBook-Pro TEKsystemsDocuments % git clone https://github.com/ylldesmustafa/html-css.git
+Cloning into 'html-css'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 17 (delta 2), reused 14 (delta 2), pack-reused 0
+Unpacking objects: 100% (17/17), done.
+ylldesmustafa@Ylldess-MacBook-Pro TEKsystemsDocuments % ls
+EFT EnrollmentforUSA_FilledOut.pages	git
+SignedW9-1.pdf				html-css
+Stipend Docs				tgs-webdevelopmentbootcamp-guide.pdf
+ylldesmustafa@Ylldess-MacBook-Pro TEKsystemsDocuments % cd html-css
+ylldesmustafa@Ylldess-MacBook-Pro html-css % ls
+README.md	contact.html	index.css
+assets		gallery.html	index.html
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git checkout -b ylldes-mustafa 
+Switched to a new branch 'ylldes-mustafa'
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git add -A
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status 
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git add index.html 
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git add index.css
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git branch
+  master
+* ylldes-mustafa
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git add gallery.html
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git commit -m "added name branch"
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git push origin ylldes-mustafa 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'ylldes-mustafa' on GitHub by visiting:
+remote:      https://github.com/ylldesmustafa/html-css/pull/new/ylldes-mustafa
+remote: 
+To https://github.com/ylldesmustafa/html-css.git
+ * [new branch]      ylldes-mustafa -> ylldes-mustafa
+ylldesmustafa@Ylldess-MacBook-Pro html-css % code . 
+zsh: command not found: code
+ylldesmustafa@Ylldess-MacBook-Pro html-css % code .
+ylldesmustafa@Ylldess-MacBook-Pro html-css % ls
+README.md	assets		contact.html	gallery.html	index.css	index.html
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git commit -m "added title"
+On branch ylldes-mustafa
+Changes not staged for commit:
+	modified:   index.html
+
+no changes added to commit
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git add index.html
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git commit -m "added title"
+[ylldes-mustafa af690ca] added title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git push origin ylldes-mustafa
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ylldesmustafa/html-css.git
+   8da884b..af690ca  ylldes-mustafa -> ylldes-mustafa
+ylldesmustafa@Ylldess-MacBook-Pro html-css % git status
+On branch ylldes-mustafa
+nothing to commit, working tree clean
+ylldesmustafa@Ylldess-MacBook-Pro html-css % 
